@@ -1,0 +1,49 @@
+.special-offers-card {
+  .custom-button {
+    background: #FF7373 !important;
+    color: #ffffff;
+    border: none !important;
+  }
+  .custom-button:hover {
+    background: #FF7373 !important;
+  }
+}
+
+.product-card {
+  .custom-button {
+    .p-button {
+      width: 74px;
+      height: 51px;
+      padding: 10px;
+      border-radius: 20px;
+      border-bottom: 1px solid #426BD5;
+      background: linear-gradient(85deg, rgba(63, 109, 228, 0.85) 3.71%, rgba(97, 142, 255, 0.85) 94.44%);
+      box-shadow: 0px 3px 3px 0px rgba(146, 171, 235, 0.16);
+    }
+    .p-button:enabled:hover {
+      border-color: transparent;
+      background: linear-gradient(85deg, rgba(63, 109, 228, 0.85) 3.71%, rgba(97, 142, 255, 0.85) 94.44%);
+    }
+  }
+}
+
+.check-now-card {
+  .custom-button {
+    .p-button {
+      width: 141px;
+      height: 47px;
+      padding: 12px 16px;
+      border-radius: 37px;
+      background: radial-gradient(71.41% 82.98% at 50% 51.06%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.31) 100%);
+      border: none;
+      color: #654830;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .p-button:enabled:hover {
+      border-color: transparent;
+      background: radial-gradient(71.41% 82.98% at 50% 51.06%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.31) 100%);
+      color: #654830;
+    }
+  }
+}
